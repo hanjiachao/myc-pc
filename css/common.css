@@ -1,0 +1,270 @@
+body {
+  background: #f5f6fa;
+}
+img,
+video {
+  display: block;
+}
+input {
+  outline: none;
+  border: none;
+}
+a {
+  cursor: pointer;
+}
+body {
+  min-width: 1200px;
+}
+body .container {
+  min-width: 1200px;
+}
+body > .container-fluid,
+body > .container-fluid > .container,
+body > .container {
+  padding: 40px 0 60px;
+}
+body > .container-fluid.white,
+body > .container-fluid > .container.white,
+body > .container.white {
+  color: #fff;
+}
+body > .container-fluid > h3,
+body > .container-fluid > .container > h3,
+body > .container > h3 {
+  text-align: center;
+  font-weight: bold;
+}
+body > .container-fluid > h3 span,
+body > .container-fluid > .container > h3 span,
+body > .container > h3 span {
+  color: #ffb21f;
+}
+body > .container-fluid > h4,
+body > .container-fluid > .container > h4,
+body > .container > h4 {
+  text-align: center;
+}
+body > .container-fluid > p,
+body > .container-fluid > .container > p,
+body > .container > p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 0;
+}
+.btn:hover,
+.btn:active {
+  box-shadow: none;
+  opacity: 1;
+  color: initial;
+}
+.bannerImg {
+  width: 100%;
+}
+.bg {
+  position: absolute;
+  z-index: -1;
+}
+.bg1 {
+  background: url("../img/bg1.png");
+  background-size: 100% 100%;
+}
+.bg2 {
+  background: url("../img/bg2.png");
+  background-size: 100% 100%;
+}
+.img {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img img {
+  width: 100%;
+  min-height: 100%;
+}
+.moreBtn {
+  width: 200px;
+  line-height: 60px;
+  border-radius: 30px;
+  background: #ff9b19;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 2px 3px 29px 0 rgba(255, 155, 25, 0.59);
+}
+.moreBtn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s;
+}
+#header.active {
+  background: #fff;
+}
+#header.active .navbar {
+  margin-bottom: 0 !important;
+}
+#header.active .navbar a {
+  color: #555 !important;
+}
+#header.active .navbar .list a {
+  background: #fff !important;
+}
+#header .navbar-header {
+  height: 75px;
+}
+#header .navbar-header .navbar-toggle {
+  margin-top: 17px;
+  margin-right: 19px;
+}
+#header .navbar-header .navbar-toggle .icon-bar {
+  background: #fff;
+  width: 26px;
+  margin-top: 5px;
+}
+#header .navbar-header .navbar-brand img {
+  height: 50px;
+}
+#header #navbar-menu .navbar-nav {
+  float: right;
+}
+#header #navbar-menu .navbar-nav a {
+  color: #fff;
+  line-height: 50px;
+}
+#header #navbar-menu .navbar-nav a:hover,
+#header #navbar-menu .navbar-nav a:focus {
+  background: initial;
+}
+#header #courseBtn .list {
+  position: absolute;
+  width: 100%;
+  top: 70%;
+  left: 0;
+}
+#header #courseBtn .list a {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  opacity: 0;
+}
+#banner {
+  padding: 0;
+}
+#banner .swiper-slide video,
+#banner .swiper-slide img {
+  width: 100%;
+}
+#footer {
+  background: #000;
+  padding: 10px 0 50px;
+  position: relative;
+}
+#footer:before {
+  content: '';
+  display: block;
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 60px;
+}
+#footer .container {
+  position: relative;
+  padding: 0;
+}
+#footer .container .header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 90px;
+}
+#footer .container .header .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  background: #000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .container .header .logo img {
+  width: 160px;
+}
+#footer .container .codeContent {
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#footer .container .codeContent .code {
+  margin: 0 12px;
+}
+#footer .container .codeContent .code img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+#footer .container .codeContent .code .text {
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+#footer .container .contact {
+  padding-top: 40px;
+}
+#footer .container .contact .row {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#footer .container .contact .row img {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+#footer .container .contact .row .text {
+  color: #fff;
+}
+#footer #footerImg {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+#footer #footerImg .img {
+  width: 100%;
+}
+#footer #footerImg .btn {
+  position: fixed;
+  width: 12%;
+  right: 20%;
+  bottom: 0;
+}
+#footer #footerImg .closeBtn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  right: 12%;
+  bottom: 7%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=common.css.map */

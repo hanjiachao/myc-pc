@@ -1,0 +1,42 @@
+<div class="container-fluid wow fadeIn">
+    <div class="container">
+        <div class="header">
+            <div class="line"></div>
+            <div class="logo">
+                <img src="img/logoB.png">
+            </div>
+        </div>
+        <div class="codeContent">
+            <div class="code">
+                <img src="img/code1.png">
+                <div class="text">扫码关注小程序</div>
+            </div>
+            <div class="code">
+                <img src="img/code2.png">
+                <div class="text">扫码关注公众号</div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="row">
+                <img src="img/tel.png">
+                <div class="text">资讯热线：400-40000000</div>
+            </div>
+            <div class="row">
+                <img src="img/address.png">
+                <div class="text">资讯热线：400-40000000</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footerImg">
+    <img class="img" src="img/footerImg.png">
+    <img class="btn" src="img/footerBtn.png">
+    <img id="closeBtn" class="closeBtn" src="img/remove.png">
+</div>
+<script>
+    $(function () {
+        $("#closeBtn").on('click',function () {
+            $("#footerImg").hide()
+        })
+    })
+</script>

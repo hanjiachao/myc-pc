@@ -262,21 +262,25 @@
     }
   }
   .teacherList{
+    padding-bottom: 0;
     .list{
-      display: flex;
-      justify-content: flex-start;
-      flex-wrap: wrap;
+      padding-bottom: 0;
+      &.str_active{background: rgba(0,0,0,0) !important}
       .item{
         text-align: center;
-        width: 24%;
-        margin: 0 0.5% 30px;
+        width: 300px;
+        margin: 0 10px;
+        display: inline-block;
         img{width: 100%;border-radius: 15px}
         p{
           &.text{
-            width: 90%;
+            width: 270px;
             margin: 0 auto;
             text-align: left;
+            white-space: normal;
             line-height: 25px;
+            height: 200px;
+            overflow: auto;
           }
         }
       }
@@ -1819,15 +1823,15 @@
   .teacherList{
     .list{
       margin-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      &.str_active{background: rgba(0,0,0,0) !important}
       .item{
-        width: 23%;
+        width: 280px;
         box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.22);
         border-radius: 15px;
         overflow: hidden;
         position: relative;
+        display: inline-block;
+        margin: 0 10px;
         &:hover{
           .info{opacity: 1}
         }
@@ -1878,6 +1882,7 @@
                 background: #fff;
               }
             }
+            p{white-space: normal}
           }
         }
       }

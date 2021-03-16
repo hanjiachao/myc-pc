@@ -269,25 +269,33 @@
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
 }
+#index .teacherList {
+  padding-bottom: 0;
+}
 #index .teacherList .list {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+#index .teacherList .list.str_active {
+  background: rgba(0, 0, 0, 0) !important;
 }
 #index .teacherList .list .item {
   text-align: center;
-  width: 24%;
-  margin: 0 0.5% 30px;
+  width: 300px;
+  margin: 0 10px;
+  display: inline-block;
 }
 #index .teacherList .list .item img {
   width: 100%;
   border-radius: 15px;
 }
 #index .teacherList .list .item p.text {
-  width: 90%;
+  width: 270px;
   margin: 0 auto;
   text-align: left;
+  white-space: normal;
   line-height: 25px;
+  height: 200px;
+  overflow: auto;
 }
 #index .environmentList .container {
   display: flex;
@@ -2000,16 +2008,18 @@
 }
 #teacher .teacherList .list {
   margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+#teacher .teacherList .list.str_active {
+  background: rgba(0, 0, 0, 0) !important;
 }
 #teacher .teacherList .list .item {
-  width: 23%;
+  width: 280px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.22);
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+  display: inline-block;
+  margin: 0 10px;
 }
 #teacher .teacherList .list .item:hover .info {
   opacity: 1;
@@ -2073,6 +2083,9 @@
   left: -12px;
   top: 17px;
   background: #fff;
+}
+#teacher .teacherList .list .item .info .text p {
+  white-space: normal;
 }
 #teacher .classList {
   padding-bottom: 0;

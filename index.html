@@ -150,7 +150,7 @@
 <div class="container teacherList wow fadeIn">
     <h3>精湛技术 • 潜心教学</h3>
     <p>技术水准、从业经验、职业操守、育人精神全部在线，始终站在服务学员一线</p>
-    <div class="list">
+    <div class="list" id="teacherList">
         <div class="item">
             <img src="img/test.png">
             <h3>尹灵然</h3>
@@ -168,6 +168,18 @@
             <h3>尹灵然</h3>
             <p>UI设计讲师</p>
             <p class="text">擅长手绘插画设计并能驾驭各种风格产品需求。</p>
+        </div>
+        <div class="item">
+            <img src="img/test.png">
+            <h3>尹灵然</h3>
+            <p>UI设计讲师</p>
+            <p class="text">工业设计出身专注互联网产品设计。曾在多家互联网公司担任各类产品界面交互、视觉设计等。擅长手绘插画设计并能驾驭各种风格产品需求。</p>
+        </div>
+        <div class="item">
+            <img src="img/test.png">
+            <h3>尹灵然</h3>
+            <p>UI设计讲师</p>
+            <p class="text">工业设计出身专注互联网产品设计。曾在多家互联网公司担任各类产品界面交互、视觉设计等。擅长手绘插画设计并能驾驭各种风格产品需求。</p>
         </div>
         <div class="item">
             <img src="img/test.png">
@@ -280,6 +292,7 @@
             loop: true
         })
         new WOW().init()
+        $("#teacherList").liMarquee()
         $('#classList').liMarquee()
         $('#projectList').liMarquee()
         $("#studentList").liMarquee({direction: 'up',scrollamount: 20})

@@ -244,6 +244,17 @@ body > .container > p {
 #footer .container .contact .row .text {
   color: #fff;
 }
+#footer .container .number {
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  color: #ccc;
+  justify-content: center;
+  text-align: center;
+}
+#footer .container .number img {
+  margin-right: 5px;
+}
 #footer #footerImg {
   position: fixed;
   width: 100%;

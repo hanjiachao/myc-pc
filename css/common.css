@@ -12,6 +12,17 @@ input {
 a {
   cursor: pointer;
 }
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.overflow2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 body {
   min-width: 1200px;
 }

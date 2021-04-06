@@ -2397,6 +2397,8 @@
   left: 18%;
 }
 .serviceList .list {
+  width: 1200px;
+  margin: 0 auto;
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
@@ -2408,6 +2410,7 @@
   text-align: center;
   line-height: 200px;
   font-size: 18px;
+  font-weight: bold;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
@@ -2693,6 +2696,215 @@
   color: #fff;
   margin-right: 20px;
 }
+#exhibitionDesign .groupList {
+  background: #fff;
+}
+#exhibitionDesign .groupList .list {
+  width: 1200px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#exhibitionDesign .groupList .list .item {
+  width: 370px;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.34);
+}
+#exhibitionDesign .groupList .list .item:nth-child(1) {
+  background: linear-gradient(-30deg, #FF9B19, #FEC41D);
+}
+#exhibitionDesign .groupList .list .item:nth-child(2) {
+  background: linear-gradient(-30deg, #FC3351, #FE5055);
+}
+#exhibitionDesign .groupList .list .item:nth-child(3) {
+  background: linear-gradient(-30deg, #3469F4, #4394F9);
+}
+#exhibitionDesign .groupList .list .item .img {
+  width: 170px;
+  height: 145px;
+}
+#exhibitionDesign .groupList .list .item .info {
+  width: 200px;
+}
+#exhibitionDesign .groupList .list .item .info p {
+  padding-left: 30px;
+  font-size: 24px;
+  line-height: 45px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0;
+}
+#exhibitionDesign .classList {
+  padding: 40px 0 80px;
+  background: #E8EDF0;
+}
+#exhibitionDesign .classList .list {
+  background: initial;
+  margin: 40px 0;
+}
+#exhibitionDesign .classList .list .item {
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  margin: 0 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#exhibitionDesign .classList .list .item img {
+  width: 100%;
+  height: 330px;
+}
+#exhibitionDesign .classList .list .item span {
+  display: block;
+  line-height: 70px;
+  background: #FF9B19;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+#exhibitionDesign .courseList .courseContent {
+  width: 1200px;
+  height: 600px;
+  background: #fff;
+  margin: 0 auto 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.19);
+}
+#exhibitionDesign .courseList .courseContent .list {
+  width: 50%;
+  padding-left: 65px;
+  box-sizing: border-box;
+  background: #fff;
+}
+#exhibitionDesign .courseList .courseContent .list .item {
+  border-left: 1px solid #FF9B19;
+  line-height: 40px;
+  padding-bottom: 60px;
+}
+#exhibitionDesign .courseList .courseContent .list .item:last-child {
+  padding: 0;
+}
+#exhibitionDesign .courseList .courseContent .list .item h4 {
+  margin: 0;
+}
+#exhibitionDesign .courseList .courseContent .list .item p {
+  margin: 0;
+  color: #666;
+}
+#exhibitionDesign .courseList .courseContent .list .item .title {
+  padding-left: 20px;
+  position: relative;
+}
+#exhibitionDesign .courseList .courseContent .list .item .title:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #FF9B19;
+  left: -3px;
+  top: 0;
+}
+#exhibitionDesign .courseList .courseContent .list .item .title h4 {
+  font-size: 24px;
+  color: #FF9B19;
+}
+#exhibitionDesign .courseList .courseContent .list .item .title p {
+  font-size: 20px;
+}
+#exhibitionDesign .courseList .courseContent .list .item .info {
+  padding-left: 60px;
+}
+#exhibitionDesign .courseList .courseContent .list .item .info h4 {
+  font-size: 24px;
+  color: #111;
+  line-height: 40px;
+}
+#exhibitionDesign .courseList .courseContent .list .item .info p {
+  font-size: 16px;
+  line-height: 30px;
+}
+#exhibitionDesign .courseList .courseContent .imgContent {
+  width: 50%;
+  height: 600px;
+  background: linear-gradient(255deg, #FF750B 0%, #FF9B19 100%);
+  display: flex;
+  align-items: center;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.19);
+}
+#exhibitionDesign .courseList .courseContent .imgContent .img {
+  height: 460px;
+  margin-right: -80px;
+}
+#exhibitionDesign .worksList {
+  background: #fff;
+}
+#exhibitionDesign .worksList .list {
+  width: 1200px;
+  margin: 50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#exhibitionDesign .worksList .list .item {
+  width: 375px;
+}
+#exhibitionDesign .worksList .list .item > img {
+  width: 380px;
+  height: 335px;
+  border-radius: 20px;
+}
+#exhibitionDesign .worksList .list .item > p {
+  margin-top: 15px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  opacity: 0.9;
+}
+#exhibitionDesign .teachList {
+  background: #E8EDF0;
+}
+#exhibitionDesign .teachList .list {
+  width: 1150px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#exhibitionDesign .teachList .list .item {
+  width: 50%;
+  position: relative;
+  margin-bottom: -20px;
+}
+#exhibitionDesign .teachList .list .item > img {
+  width: 100%;
+}
+#exhibitionDesign .teachList .list .item .info {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 13%;
+}
+#exhibitionDesign .teachList .list .item .info p {
+  margin-top: 20px;
+}
+#exhibitionDesign .serviceList {
+  background: #fff;
+}
 #softLoadingDesign .introduceList .list {
   display: flex;
   justify-content: space-between;
@@ -2725,7 +2937,7 @@
   bottom: 0;
 }
 #softLoadingDesign .introduceList .list .item .info .img {
-  height: 165px;
+  height: 160px;
   margin: -125px auto 0;
 }
 #softLoadingDesign .introduceList .list .item .info h5 {
@@ -2769,6 +2981,10 @@
 }
 #softLoadingDesign .chartList .info p {
   line-height: 25px;
+}
+#softLoadingDesign .chartList > img {
+  border-radius: 20px;
+  box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.16);
 }
 #softLoadingDesign .chartList .imgLeft {
   width: 500px;
@@ -2820,17 +3036,21 @@
   width: 160px;
   height: 158px;
 }
+#softLoadingDesign .stepList {
+  background: #E8EDF0;
+}
 #softLoadingDesign .stepList .list {
   background: initial;
   margin: 40px 0 70px;
 }
 #softLoadingDesign .stepList .list .item {
   display: inline-block;
-  width: 380px;
+  width: 550px;
   margin: 0 12px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 1px 4px 9px 0 rgba(5, 5, 5, 0.14);
+  background: #fff;
 }
 #softLoadingDesign .stepList .list .item img {
   width: 100%;
@@ -3020,5 +3240,227 @@
   margin-right: 8px;
   background: #ff9b19;
   display: block;
+}
+#softLoadingDesign .worksList {
+  background: #fff;
+}
+#softLoadingDesign .worksList .list {
+  width: 1200px;
+  margin: 50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#softLoadingDesign .worksList .list .item {
+  width: 375px;
+}
+#softLoadingDesign .worksList .list .item > img {
+  width: 380px;
+  height: 335px;
+  border-radius: 20px;
+}
+#softLoadingDesign .worksList .list .item > p {
+  margin-top: 15px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  opacity: 0.9;
+}
+#softLoadingDesign .teachList {
+  background: #E8EDF0;
+}
+#softLoadingDesign .teachList .list {
+  width: 1150px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#softLoadingDesign .teachList .list .item {
+  width: 50%;
+  position: relative;
+  margin-bottom: -20px;
+}
+#softLoadingDesign .teachList .list .item > img {
+  width: 100%;
+}
+#softLoadingDesign .teachList .list .item .info {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 13%;
+}
+#softLoadingDesign .teachList .list .item .info p {
+  margin-top: 20px;
+}
+#softLoadingDesign .serviceList {
+  background: #fff;
+}
+#fixtureDesign .reasonList {
+  background: url("../img/fixtureDesign/reasonBg.png") no-repeat bottom center;
+}
+#fixtureDesign .reasonList .list {
+  width: 1200px;
+  margin: 160px auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fixtureDesign .reasonList .list .item {
+  width: 375px;
+  height: 370px;
+  background: red;
+  color: #fff;
+  box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px 60px 20px 20px;
+  position: relative;
+}
+#fixtureDesign .reasonList .list .item:nth-child(1) {
+  background: #FF9B19;
+}
+#fixtureDesign .reasonList .list .item:nth-child(2) {
+  background: #FF4A19;
+  margin-top: -100px;
+}
+#fixtureDesign .reasonList .list .item:nth-child(3) {
+  background: #FFC619;
+}
+#fixtureDesign .reasonList .list .item .img {
+  height: 240px;
+  margin: -125px auto 0;
+}
+#fixtureDesign .reasonList .list .item h5 {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+#fixtureDesign .reasonList .list .item p {
+  font-size: 16px;
+  padding: 0 8%;
+  line-height: 30px;
+  height: 150px;
+}
+#fixtureDesign .softwareList {
+  background: url("../img/fixtureDesign/contentBg.png");
+  background-size: 100% 100%;
+  height: 520px;
+}
+#fixtureDesign .softwareList > h3 {
+  line-height: 130px;
+}
+#fixtureDesign .softwareList .list {
+  width: 1050px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fixtureDesign .softwareList .list .item {
+  width: 175px;
+  height: 170px;
+  background: #fff;
+  border-radius: 20px 60px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#fixtureDesign .softwareList .list .item:hover {
+  margin-top: -30px;
+}
+#fixtureDesign .softwareList .list .item img {
+  width: 160px;
+  height: 158px;
+}
+#fixtureDesign .stepList {
+  background: #E8EDF0;
+}
+#fixtureDesign .stepList .list {
+  background: initial;
+  margin: 40px 0 70px;
+}
+#fixtureDesign .stepList .list .item {
+  display: inline-block;
+  width: 550px;
+  margin: 0 12px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 4px 9px 0 rgba(5, 5, 5, 0.14);
+  background: #fff;
+}
+#fixtureDesign .stepList .list .item img {
+  width: 100%;
+  height: 230px;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+#fixtureDesign .stepList .list .item .info {
+  padding: 25px 40px;
+  height: 230px;
+  box-sizing: border-box;
+}
+#fixtureDesign .stepList .list .item .info > h5 {
+  font-size: 24px;
+  line-height: 40px;
+}
+#fixtureDesign .stepList .list .item .info > h5 span {
+  color: #FF9B19;
+}
+#fixtureDesign .stepList .list .item .info > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  white-space: normal;
+}
+#fixtureDesign .classList {
+  padding: 70px 0 90px;
+  background: url("../img/fixtureDesign/classBg.png");
+  background-size: 100% 100%;
+}
+#fixtureDesign .classList .list {
+  background: initial;
+  margin: 40px 0;
+}
+#fixtureDesign .classList .list .item {
+  display: inline-block;
+  width: 380px;
+  height: 270px;
+  margin: 0 -2px;
+}
+#fixtureDesign .classList .list .item img {
+  width: 100%;
+  height: 100%;
+}
+#fixtureDesign .worksList .list {
+  width: 1200px;
+  margin: 50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#fixtureDesign .worksList .list .item {
+  width: 375px;
+}
+#fixtureDesign .worksList .list .item > img {
+  width: 380px;
+  height: 335px;
+  border-radius: 20px;
+}
+#fixtureDesign .worksList .list .item > p {
+  margin-top: 15px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */

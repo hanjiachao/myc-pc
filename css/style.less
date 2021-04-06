@@ -2175,6 +2175,8 @@
 }
 .serviceList{
   .list{
+    width: 1200px;
+    margin: 0 auto;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -2185,6 +2187,7 @@
       text-align: center;
       line-height: 200px;
       font-size: 18px;
+      font-weight: bold;
       margin-bottom: 30px;
       letter-spacing: 1px;
       &:nth-child(1){background: url("../img/service1.png");background-size: 100% 100%}
@@ -2446,6 +2449,188 @@
     }
   }
 }
+#exhibitionDesign{
+  .groupList{
+    background: #fff;
+    .list{
+      width: 1200px;
+      margin: 50px auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .item{
+        width: 370px;
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.34);
+        &:nth-child(1){background: linear-gradient(-30deg, #FF9B19, #FEC41D)}
+        &:nth-child(2){background: linear-gradient(-30deg, #FC3351, #FE5055)}
+        &:nth-child(3){background: linear-gradient(-30deg, #3469F4, #4394F9)}
+        .img{
+          width: 170px;
+          height: 145px;
+        }
+        .info{
+          width: 200px;
+          p{
+            padding-left: 30px;
+            font-size: 24px;
+            line-height: 45px;
+            color: #fff;
+            font-weight: 500;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .classList {
+    padding: 40px 0 80px;
+    background: #E8EDF0;;
+    .list {
+      background: initial;
+      margin: 40px 0;
+      .item {
+        display: inline-block;
+        width: 500px;
+        height: 400px;
+        margin: 0 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 330px;
+        }
+        span {
+          display: block;
+          line-height: 70px;
+          background: #FF9B19;
+          color: #fff;
+          text-align: center;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .courseList{
+    .courseContent{
+      width: 1200px;
+      height: 600px;
+      background: #fff;
+      margin: 0 auto 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px 0 0 20px;
+      box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.19);
+      .list{
+        width: 50%;
+        padding-left: 65px;
+        box-sizing: border-box;
+        background: #fff;
+        .item{
+          border-left: 1px solid #FF9B19;
+          line-height: 40px;
+          padding-bottom: 60px;
+          &:last-child{padding: 0}
+          h4{margin: 0}
+          p{margin: 0;color: #666}
+          .title{
+            padding-left: 20px;
+            position: relative;
+            &:before{
+              content: '';
+              position: absolute;
+              width: 5px;
+              height: 100%;
+              background: #FF9B19;
+              left: -3px;
+              top: 0;
+            }
+            h4{font-size: 24px;color: #FF9B19}
+            p{font-size: 20px}
+          }
+          .info{
+            padding-left: 60px;
+            h4{font-size: 24px;color: #111;line-height: 40px}
+            p{font-size: 16px;line-height: 30px}
+          }
+        }
+      }
+      .imgContent{
+        width: 50%;
+        height: 600px;
+        background: linear-gradient(255deg, #FF750B 0%, #FF9B19 100%);
+        display: flex;
+        align-items: center;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.19);
+        .img{
+          height: 460px;
+          margin-right: -80px;
+        }
+      }
+    }
+  }
+  .worksList{
+    background: #fff;
+    .list{
+      width: 1200px;
+      margin: 50px auto 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item{
+        width: 375px;
+        &>img{
+          width: 380px;
+          height: 335px;
+          border-radius: 20px;
+        }
+        &>p{
+          margin-top: 15px;
+          font-size: 16px;
+          height: 40px;
+          line-height: 40px;
+          font-weight: bold;
+          color: #666;
+          text-align: center;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  .teachList{
+    background: #E8EDF0;
+    .list{
+      width: 1150px;
+      margin: 30px auto 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .item{
+        width: 50%;
+        position: relative;
+        margin-bottom: -20px;
+        &>img{width: 100%}
+        .info{
+          position: absolute;
+          color: #fff;
+          top: 20%;
+          left: 13%;
+          p{margin-top: 20px}
+        }
+      }
+    }
+  }
+  .serviceList{background: #fff}
+}
 #softLoadingDesign{
   .introduceList{
     .list{
@@ -2471,7 +2656,7 @@
           left: 0;
           bottom: 0;
           .img{
-            height: 165px;
+            height: 160px;
             margin: -125px auto 0;
           }
           h5{
@@ -2512,6 +2697,10 @@
         letter-spacing: 5px;
       }
       p{line-height: 25px}
+    }
+    &>img{
+      border-radius: 20px;
+      box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.16);
     }
     .imgLeft{
       width: 500px;
@@ -2561,16 +2750,18 @@
     }
   }
   .stepList {
+    background: #E8EDF0;
     .list {
       background: initial;
       margin: 40px 0 70px;
       .item {
         display: inline-block;
-        width: 380px;
+        width: 550px;
         margin: 0 12px;
         border-radius: 15px;
         overflow: hidden;
         box-shadow: 1px 4px 9px 0 rgba(5, 5, 5, 0.14);
+        background: #fff;
         img {
           width: 100%;
           height: 230px;
@@ -2747,6 +2938,211 @@
               display: block;
             }
           }
+        }
+      }
+    }
+  }
+  .worksList{
+    background: #fff;
+    .list{
+      width: 1200px;
+      margin: 50px auto 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item{
+        width: 375px;
+        &>img{
+          width: 380px;
+          height: 335px;
+          border-radius: 20px;
+        }
+        &>p{
+          margin-top: 15px;
+          font-size: 16px;
+          height: 40px;
+          line-height: 40px;
+          font-weight: bold;
+          color: #666;
+          text-align: center;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  .teachList{
+    background: #E8EDF0;
+    .list{
+      width: 1150px;
+      margin: 30px auto 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .item{
+        width: 50%;
+        position: relative;
+        margin-bottom: -20px;
+        &>img{width: 100%}
+        .info{
+          position: absolute;
+          color: #fff;
+          top: 20%;
+          left: 13%;
+          p{margin-top: 20px}
+        }
+      }
+    }
+  }
+  .serviceList{background: #fff}
+}
+#fixtureDesign{
+  .reasonList{
+    background: url("../img/fixtureDesign/reasonBg.png") no-repeat bottom center;
+    .list{
+      width: 1200px;
+      margin: 160px auto 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .item{
+        width: 375px;
+        height: 370px;
+        background: red;
+        color: #fff;
+        box-shadow: 1px 2px 18px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px 60px 20px 20px;
+        position: relative;
+        &:nth-child(1){background: #FF9B19}
+        &:nth-child(2){background: #FF4A19;margin-top: -100px}
+        &:nth-child(3){background: #FFC619}
+        .img{
+          height: 240px;
+          margin: -125px auto 0;
+        }
+        h5{
+          font-size: 24px;
+          line-height: 40px;
+          text-align: center;
+        }
+        p{
+          font-size: 16px;
+          padding: 0 8%;
+          line-height: 30px;
+          height: 150px;
+        }
+      }
+    }
+  }
+  .softwareList{
+    background: url("../img/fixtureDesign/contentBg.png");
+    background-size: 100% 100%;
+    height: 520px;
+    &>h3{line-height: 130px}
+    .list{
+      width: 1050px;
+      margin: 40px auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .item{
+        width: 175px;
+        height: 170px;
+        background: #fff;
+        border-radius: 20px 60px 20px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover{margin-top: -30px}
+        img{
+          width: 160px;
+          height: 158px;
+        }
+      }
+    }
+  }
+  .stepList {
+    background: #E8EDF0;
+    .list {
+      background: initial;
+      margin: 40px 0 70px;
+      .item {
+        display: inline-block;
+        width: 550px;
+        margin: 0 12px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 1px 4px 9px 0 rgba(5, 5, 5, 0.14);
+        background: #fff;
+        img {
+          width: 100%;
+          height: 230px;
+          display: inline-block;
+          .transition()
+        }
+        .info{
+          padding: 25px 40px;
+          height: 230px;
+          box-sizing: border-box;
+          &>h5{
+            font-size: 24px;
+            line-height: 40px;
+            span{color: #FF9B19}
+          }
+          &>p{
+            font-size: 16px;
+            line-height: 30px;
+            color: #666;
+            white-space: normal;
+          }
+        }
+      }
+    }
+  }
+  .classList {
+    padding: 70px 0 90px;
+    background: url("../img/fixtureDesign/classBg.png");
+    background-size: 100% 100%;
+    .list {
+      background: initial;
+      margin: 40px 0;
+      .item {
+        display: inline-block;
+        width: 380px;
+        height: 270px;
+        margin: 0 -2px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .worksList{
+    .list{
+      width: 1200px;
+      margin: 50px auto 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .item{
+        width: 375px;
+        &>img{
+          width: 380px;
+          height: 335px;
+          border-radius: 20px;
+        }
+        &>p{
+          margin-top: 15px;
+          font-size: 16px;
+          height: 40px;
+          line-height: 40px;
+          font-weight: bold;
+          color: #666;
+          text-align: center;
+          opacity: 0.9;
         }
       }
     }

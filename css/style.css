@@ -2769,6 +2769,73 @@
   font-size: 16px;
   font-weight: bold;
 }
+#exhibitionDesign .developList {
+  background: url("../img/exhibitionDesign/contentBg.png");
+  background-size: 100% 100%;
+  height: 650px;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+#exhibitionDesign .developList .list {
+  background: url("../img/exhibitionDesign/listBg.png");
+  background-size: 100% 100%;
+  width: 1000px;
+  height: 520px;
+  margin: 0 auto;
+  position: relative;
+}
+#exhibitionDesign .developList .list .item {
+  color: #fff;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#exhibitionDesign .developList .list .item p {
+  margin: 0;
+}
+#exhibitionDesign .developList .list .item:nth-child(1) {
+  top: 20px;
+  left: 23px;
+}
+#exhibitionDesign .developList .list .item:nth-child(2) {
+  top: 260px;
+  left: 160px;
+}
+#exhibitionDesign .developList .list .item:nth-child(3) {
+  top: 354px;
+  left: 440px;
+}
+#exhibitionDesign .developList .list .item:nth-child(4) {
+  top: 260px;
+  right: 151px;
+}
+#exhibitionDesign .developList .list .item:nth-child(5) {
+  top: 31px;
+  right: 25px;
+}
+#exhibitionDesign .developList .list .title {
+  width: 100%;
+  padding-top: 70px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+#exhibitionDesign .developList .list .title h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+}
+#exhibitionDesign .developList .list .title p {
+  font-size: 16px;
+  line-height: 20px;
+}
 #exhibitionDesign .courseList .courseContent {
   width: 1200px;
   height: 600px;
